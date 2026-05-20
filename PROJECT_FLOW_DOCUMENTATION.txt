@@ -1,0 +1,674 @@
+﻿SkillTrack Project Documentation
+
+Extended Project Report
+
+This document explains the full SkillTrack project in detailed paragraph form so it can be used as a project report, a handover note, or a reference document for both technical and non-technical readers.
+It describes the complete flow of the product, the structure of the frontend and backend, the responsibilities of each major page and API, and the way the system supports learning progress from start to finish.
+
+Project Overview
+
+The Project Overview section of SkillTrack explains the overall purpose of the platform and how it supports employee learning in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Project Overview section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Architecture and Stack
+
+The Architecture and Stack section of SkillTrack explains the full-stack design and the role of React, Spring Boot, and MySQL in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Architecture and Stack section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Frontend Structure
+
+The Frontend Structure section of SkillTrack explains how the React app is organized into pages, layouts, routes, and utilities in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Frontend Structure section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Backend Structure
+
+The Backend Structure section of SkillTrack explains how the Spring Boot backend is divided into controllers, services, entities, and repositories in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Backend Structure section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Authentication and Session Handling
+
+The Authentication and Session Handling section of SkillTrack explains how login data is stored and used across employee and admin flows in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Authentication and Session Handling section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Employee Dashboard
+
+The Employee Dashboard section of SkillTrack explains how the main employee landing page shows summary insight and navigation in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Employee Dashboard section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Add Skill Page
+
+The Add Skill Page section of SkillTrack explains how employees add approved skills to their personal learning board in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Add Skill Page section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+My Skills Page
+
+The My Skills Page section of SkillTrack explains how employee skills are displayed in a compact topic-aware card layout in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the My Skills Page section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Skill Details Page
+
+The Skill Details Page section of SkillTrack explains how one skill opens into topics, progress, and study links in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Skill Details Page section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Progress Tracker
+
+The Progress Tracker section of SkillTrack explains how progress is visualized with charts and a detailed table in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Progress Tracker section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Consistency Tracker
+
+The Consistency Tracker section of SkillTrack explains how topic completion is tied to real learning sessions in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Consistency Tracker section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Completed Skills Page
+
+The Completed Skills Page section of SkillTrack explains how mastered skills are shown after they reach 100 percent in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Completed Skills Page section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Profile Page
+
+The Profile Page section of SkillTrack explains how the employee profile combines identity, avatar, and learning summary in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Profile Page section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Roadmap Flow
+
+The Roadmap Flow section of SkillTrack explains how roadmap pages guide learning and connect into tracked skill records in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Roadmap Flow section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Frontend Roadmap
+
+The Frontend Roadmap section of SkillTrack explains how the frontend learning path maps topics and external resources in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Frontend Roadmap section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Backend Roadmap
+
+The Backend Roadmap section of SkillTrack explains how the backend learning path maps Java and Spring topics in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Backend Roadmap section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+DevOps Roadmap
+
+The DevOps Roadmap section of SkillTrack explains how the DevOps learning path maps infrastructure and cloud topics in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the DevOps Roadmap section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Admin Dashboard
+
+The Admin Dashboard section of SkillTrack explains how the admin landing page summarizes the state of the organization in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Admin Dashboard section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Skill Catalog
+
+The Skill Catalog section of SkillTrack explains how admins define the official skills, topics, and study links in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Skill Catalog section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Skill Catalog Editing
+
+The Skill Catalog Editing section of SkillTrack explains how existing catalog skills are updated without breaking the learning flow in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Skill Catalog Editing section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Employee Management
+
+The Employee Management section of SkillTrack explains how admins inspect the employee list and manage records in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Employee Management section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Employee Details
+
+The Employee Details section of SkillTrack explains how admins review one employee in detail and inspect skill progress in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Employee Details section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Invite Flow
+
+The Invite Flow section of SkillTrack explains how new employees are invited through a token-based onboarding link in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Invite Flow section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Analytics and Reporting
+
+The Analytics and Reporting section of SkillTrack explains how charts and reports give the organization a performance overview in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Analytics and Reporting section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+SkillEntity
+
+The SkillEntity section of SkillTrack explains how the catalog skill entity stores official topics and resources in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the SkillEntity section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+EmployeeSkillEntity
+
+The EmployeeSkillEntity section of SkillTrack explains how an employee skill record stores status, topics, progress, and links in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the EmployeeSkillEntity section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+AdminController
+
+The AdminController section of SkillTrack explains how admin REST endpoints expose catalog and employee reporting features in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the AdminController section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+SkillsController
+
+The SkillsController section of SkillTrack explains how employee skill endpoints support adds, updates, and topic tracking in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the SkillsController section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+SkillService
+
+The SkillService section of SkillTrack explains how the main business logic resolves catalog data and progress rules in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the SkillService section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+ConsistencyTrackerServices
+
+The ConsistencyTrackerServices section of SkillTrack explains how consistency entries affect topic completion and progress in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the ConsistencyTrackerServices section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Topic-Based Progress
+
+The Topic-Based Progress section of SkillTrack explains how progress is calculated from completed topics instead of random boosts in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Topic-Based Progress section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Study Links
+
+The Study Links section of SkillTrack explains how topic study resources are displayed and opened in the UI in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Study Links section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+URL Normalization
+
+The URL Normalization section of SkillTrack explains how the app repairs common link formatting issues before rendering in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the URL Normalization section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Catalog Synchronization
+
+The Catalog Synchronization section of SkillTrack explains how renamed or updated catalog skills stay visible in employee pages in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Catalog Synchronization section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Roadmap Skill Addition
+
+The Roadmap Skill Addition section of SkillTrack explains how adding a roadmap skill stores topics and links for tracking in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Roadmap Skill Addition section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Duplicate Prevention
+
+The Duplicate Prevention section of SkillTrack explains how the app avoids adding the same skill more than once in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Duplicate Prevention section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Charts and Visual Summaries
+
+The Charts and Visual Summaries section of SkillTrack explains how the dashboards use charts to show learning distribution in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Charts and Visual Summaries section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Navigation and Layout
+
+The Navigation and Layout section of SkillTrack explains how sidebar layouts and route groups keep the app usable in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Navigation and Layout section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+UI Consistency
+
+The UI Consistency section of SkillTrack explains how the app keeps cards, tables, and detail views visually aligned in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the UI Consistency section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Error Handling
+
+The Error Handling section of SkillTrack explains how the app responds when data is missing, stale, or malformed in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Error Handling section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Data Flow from UI to DB
+
+The Data Flow from UI to DB section of SkillTrack explains how user actions move from the browser to the backend and database in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Data Flow from UI to DB section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Data Flow from DB to UI
+
+The Data Flow from DB to UI section of SkillTrack explains how stored data is merged back into pages for display in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Data Flow from DB to UI section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Business Value
+
+The Business Value section of SkillTrack explains why the platform matters to employees, admins, and the organization in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Business Value section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Technical Value
+
+The Technical Value section of SkillTrack explains why the code structure is practical for maintenance and extension in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Technical Value section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Non-Technical Explanation
+
+The Non-Technical Explanation section of SkillTrack explains how the whole project can be understood without coding knowledge in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Non-Technical Explanation section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Future Improvements
+
+The Future Improvements section of SkillTrack explains what enhancements could be added in later versions in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Future Improvements section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Deployment and Run Notes
+
+The Deployment and Run Notes section of SkillTrack explains how the project is expected to be started and used locally in the context of the full application.
+It shows how the feature fits into the learning workflow instead of appearing as an isolated screen or table.
+From the employee side, this part helps the user understand what to do next and how progress changes after each action.
+From the admin side, this part helps keep the learning system consistent, measurable, and easy to manage.
+Technically, the React frontend renders the page, manages local state, and sends requests to the backend when data must change.
+Technically, the Spring Boot backend validates incoming requests, applies business rules, and saves or reads the correct database records.
+The MySQL database preserves the official data so that refreshes, logins, and later visits still show the same learning state.
+Because the page or service is connected to the official catalog, the system can reflect topic changes, progress changes, and study links without becoming inconsistent.
+This keeps the experience practical for users who want a learning path that feels structured rather than random.
+It also keeps the platform useful for reporting because the same data can be reused across dashboards, tables, and detailed drill-down pages.
+Overall, the Deployment and Run Notes section is one of the building blocks that makes SkillTrack understandable from both a business and a technical point of view.
+
+Closing Summary
+
+SkillTrack is designed as a complete skill learning and tracking system where employees follow approved skills, complete topic-based learning work, and see their progress improve automatically.
+Admins control the master catalog, the topic structure, the learning links, and the reporting layer, which means the whole platform has a single source of truth for learning content.
+The frontend focuses on clean user experience, while the backend focuses on accurate business logic and persistent state.
+Together, those layers create a system that is useful for daily learning, useful for admin oversight, and useful for future growth if the project is extended later.
+This document was intentionally written in paragraph style so it can be read as a proper project report instead of a bullet list.
+
+End of document.
