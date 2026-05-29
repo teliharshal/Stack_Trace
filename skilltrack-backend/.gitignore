@@ -11,7 +11,8 @@ target/
 *.ear
 
 # Application properties (optional if containing secrets)
-application-prod.properties
+#application-prod.properties
+skilltrack-backend/src/main/resources/application.properties
 
 # OS files
 .DS_Store

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LearnTrack.iml" filepath="$PROJECT_DIR$/.idea/LearnTrack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skilltrack-backend/skilltrack-backend.iml" filepath="$PROJECT_DIR$/skilltrack-backend/skilltrack-backend.iml" />
     </modules>
   </component>
 </project>
